@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata form</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <form action="hyperlink.html" method="" >
+       <fieldset><legend>Personal Information</legend>
+        <label for="F_n">FirstName:</label>
+        <input type="text" placeholder="First name" id="F_n">
+        <label for="L_n">LastName:</label>
+        <input type="text" placeholder="Last name" id="L_n">
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio"name="gender" id="male"> 
+        <label for="Female">Female</label>
+        <input type="radio"name="gender" id="Female"> 
+        <label for="Others">Others</label>
+        <input type="radio"name="gender" id="Others"> 
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+        <br><br>
+        <label for="email">E-Mail:</label>
+        <input type="email" placeholder="Enter your mail" id="email">
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" placeholder="+91" id="phone" maxlength="10">
+        <br><br>
+        <label for="height">Height:</label>
+        <input type="" placeholder="Height in feet" id="phone">
+    </fieldset>
+    <fieldset><legend>Educational Qualifications</legend>
+        <label for="Schoolname">SchoolName:</label>
+        <input type="text" placeholder="School name" id="SchoolName">
+        <br><br>
+        <label for="Class">Class:</label>
+        <input type="text" placeholder="Enter Class" id="Class">
+        <br><br>
+        <label for="stream">Stream:</label>
+        <Select name="stream" id="stream" >
+            <option>Stream</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>Mtech</option>
+            <option>Btech</option>
+        </Select>
+        <br><br>
+        <label for="upload">Marksheet:</label>
+        <input type="file"  id="upload">
+    </fieldset>
+    <br>
+<button>Submit</button>
+</form>
+</body>
+</html>
